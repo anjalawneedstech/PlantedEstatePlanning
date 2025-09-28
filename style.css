@@ -341,3 +341,6 @@ display: none; }
 .da-field-checkboxes label[aria-label=""] {
 display: none !important;
 } 
+p {
+  font-family: "Outfit", sans-serif !important;
+}
