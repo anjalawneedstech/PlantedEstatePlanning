@@ -336,3 +336,8 @@ color : #5196d5 !important;
 .btn-secondary:focus, .btn-secondary.focus,     .btn.btn-da.btn-primary:focus, .btn-primary:focus{
 box-shadow: none !important;
 }
+select option[value=""]{
+display: none; }
+.da-field-checkboxes label[aria-label=""] {
+display: none !important;
+} 
