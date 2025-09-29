@@ -272,12 +272,19 @@ color : #5196d5 !important;
 color : #5196d5 !important;
 }
 .da-attachment-title-wrapper h3{
-font-family: "DM Serif Display" !important;
+    /* V1: font-family: "DM Serif Display" !important; */
+    color: #02294f !important;          
+    font-family: "DM Serif Display" !important;
 }
 .da-attachment-download-wrapper p a {
+    /* V1: (empty rule) */
+    color: #5196d5 !important;            
+    background-color: #c3e2f4 !important;
 }
 .da-attachment-download-wrapper p a:hover{
-color: #fff !important;
+    /* V1: color: #fff !important; */
+    color: #fff !important;
+    background-color: #02294f !important; 
 }
 hr{
 background-color: #c3e2f4 !important;
@@ -363,7 +370,4 @@ button.btn.btn-primary:hover {
   color: #ffffff !important;
   background-color: #00adef !important;
   border-color: #00adef !important;
-}
-.btn-secondary:focus, .btn-secondary.focus,     .btn.btn-da.btn-primary:focus, .btn-primary:focus{
-box-shadow: none !important;
 }
