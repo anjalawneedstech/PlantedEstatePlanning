@@ -344,3 +344,23 @@ display: none !important;
 p {
   font-family: "Outfit", sans-serif !important;
 }
+button.btn.btn-default.btn-secondary.kv-hidden.fileinput-cancel.fileinput-cancel-button {
+  background-color: #5196d5 !important;
+  border-color:    #5196d5 !important;
+  color:           #ffffff !important;
+}
+.btn.btn-primary.btn-file {
+  background-color: #02294f !important;
+  border-color:    #02294f !important;
+  color:           #ffffff !important;
+}
+button.btn.btn-primary {
+  color: #ffffff !important;
+  background-color: #313B89 !important;
+  border-color: transparent !important;
+}
+button.btn.btn-primary:hover {
+  color: #ffffff !important;
+  background-color: #00adef !important;
+  border-color: #00adef !important;
+}
