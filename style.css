@@ -371,3 +371,15 @@ button.btn.btn-primary:hover {
   background-color: #00adef !important;
   border-color: #00adef !important;
 }
+a[href] {
+  color: #5196d5; /* your chosen link color */
+  text-decoration: none; /* optional */
+}
+
+a[href]:hover {
+  color: #7ec1f2; /* hover effect */
+}
+
+a[href]:active {
+  color: #5196d5; /* active (click) state */
+}
